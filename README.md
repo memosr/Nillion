@@ -1,4 +1,8 @@
-# Nillion Verifier Node Kurulumu
+<h2 align=center> Nillion Verifier Node Guide </h2>
+
+<p align="center">
+<img src='https://raw.githubusercontent.com/BidyutRoy2/Nillion-Node/main/photo_2024-08-29_14-57-45.jpg' style="width:800px;height:500px;">
+</p>
 > herhangi bir sunucuda çalıştırılabilir.
 ```console
 # gerekli güncellemeler ve docker kurulumu
