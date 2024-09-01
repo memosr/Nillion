@@ -25,4 +25,4 @@ sudo apt update && sudo apt install -y screen jq
 ```console
 current_block=$(curl -s https://testnet-nillion-rpc.lavenderfive.com/abci_info | jq -r '.result.response.last_block_height'); block_start=$((current_block - 5)); docker run -v $(pwd)/nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start $block_start
 ```
->Done ✅, beni takip edin : [j4rdeux](https://x.com/j4rdeux)
+>Done ✅
